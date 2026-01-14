@@ -19,6 +19,7 @@ class CalculatorTest {
     void subtract_shouldReturnDifference_whenTwoIntegersProvided() {
         assertEquals(-1, calculator.subtract(2, 3));
         assertEquals(5, calculator.subtract(2, -3));
+        assertEquals(0, calculator.add(0, 0));
     }
 
     @Test
